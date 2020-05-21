@@ -1,0 +1,8 @@
+[alias]
+  co       = checkout
+  hash     = !sh -c 'git rev-parse ${1-HEAD}' -
+  lg       = log --oneline --graph --decorate
+  p        = add --patch
+  st       = status -sb
+  staged   = diff --cached
+  wip      = commit -m WIP --no-verify --no-gpg-sign
