@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 " Use comma for leader key
 let mapleader=','
 
