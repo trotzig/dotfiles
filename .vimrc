@@ -3,6 +3,13 @@ execute pathogen#infect()
 " Use comma for leader key
 let mapleader=','
 
+" Make Vim read per-filetype settings from `ftplugin` and `indent` directories
+filetype plugin indent on
+
+silent! nnoremap <buffer> <unique> <silent> <Leader>j :ImportJSWord<CR>
+silent! nnoremap <buffer> <unique> <silent> <Space> :CommandT<CR>
+let g:CommandTCancelMap = ['<ESC>', '<C-c>']
+
 " Keep old leader key for pairing
 map \ ,
 
