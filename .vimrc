@@ -8,6 +8,7 @@ filetype plugin indent on
 
 silent! nnoremap <buffer> <unique> <silent> <Leader>j :ImportJSWord<CR>
 silent! nnoremap <buffer> <unique> <silent> <Space> :CommandT<CR>
+silent! nnoremap gp :Prettier<CR>
 let g:CommandTCancelMap = ['<ESC>', '<C-c>']
 
 " Keep old leader key for pairing
