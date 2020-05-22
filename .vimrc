@@ -15,7 +15,10 @@ set history=10000 " Remember this many commands & searches
 " Customize how the interface is displayed and interacted with.
 
 " Enable syntax highlighting
-syntax on
+let g:solarized_termcolors=256
+syntax enable
+set background=dark
+colorscheme solarized
 
 " Don't show Vim credits on startup
 set shortmess+=I
