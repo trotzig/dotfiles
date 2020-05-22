@@ -6,3 +6,6 @@
   st       = status -sb
   staged   = diff --cached
   wip      = commit -m WIP --no-verify --no-gpg-sign
+[user]
+	email = henric.trotzig@gmail.com
+	name = Henric Trotzig

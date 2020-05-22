@@ -1,6 +1,10 @@
+export TERM="screen-256color"
+
 alias g='git'
 
 alias k='kubectl'
+
+eval "$(nodenv init -)"
 
 tmux () {
   # Symlink auth socket so that when we reconnect we can point to the newer
@@ -30,3 +34,5 @@ tmux () {
 }
 
 alias t='tmux'
+
+source ~/dotfiles/prompt.sh
