@@ -39,12 +39,11 @@ __git_prompt() {
   fi
 }
 
+setopt prompt_subst
+
 # Main prompt line
-PS1="%F{gray}$USER@$(hostname -s)%F"
-PS1="${PS1}%F{green}:%F{red}$(__prompt_curdir)"
-PS1="${PS1}%F{green}$(__git_prompt)"
-PS1="${PS1}
-%F{33}⨠%F{white} "
+NEWLINE=$'\n'
+PS1='%F{gray}$USER@$(hostname -s)%F{green}:%F{red}$(__prompt_curdir)%F{green}$(__git_prompt)${NEWLINE}%F{33}⨠%F{white} '
 
 # Prompt to display at beginning of next line when command spans multiple lines
-PS2="%F{33}↳%F{white} "
+PS2='%F{33}↳%F{white} '
