@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/vim-prettier"]
 	path = .vim/bundle/vim-prettier
 	url = git@github.com:prettier/vim-prettier.git
+[submodule ".vim/bundle/supertab"]
+	path = .vim/bundle/supertab
+	url = git@github.com:ervandew/supertab.git
