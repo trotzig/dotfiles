@@ -22,6 +22,17 @@ set wildignore+=*.o,*.pyc,*/tmp/*,*.swp,*.zip,.git,*/node_modules/*,*/build/*,*/
 " Keep old leader key for pairing
 map \ ,
 
+set pythondll=/usr/local/Frameworks/Python.framework/Versions/3.7/Python
+set pythonhome=/usr/local/Frameworks/Python.framework/Versions/3.7
+set pythonthreedll=/usr/local/Frameworks/Python.framework/Versions/3.7/Python
+set pythonthreehome=/usr/local/Frameworks/Python.framework/Versions/3.7
+
+" UltiSnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsSnippetDirectories=['~/dotfiles/.vim/UltiSnips']
+
 set shell=/bin/sh " Use Bourne shell for command substitution
 set history=10000 " Remember this many commands & searches
 
