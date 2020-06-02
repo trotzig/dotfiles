@@ -8,6 +8,7 @@ filetype plugin indent on
 
 silent! nnoremap <Leader>j :ImportJSWord<CR>
 silent! nnoremap <Space> :CommandT<CR>
+silent! nnoremap <Leader><Space> :CommandTFlush<CR>:CommandT<CR>
 silent! nnoremap gp :Prettier<CR>
 let g:CommandTCancelMap = ['<ESC>', '<C-c>']
 let g:CommandTFileScanner = 'watchman'
