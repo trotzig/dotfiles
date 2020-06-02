@@ -6,6 +6,10 @@ alias k='kubectl'
 
 eval "$(nodenv init -)"
 
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+fpath=(~/.zsh $fpath)
+autoload -Uz compinit && compinit
+
 tmux () {
   # Symlink auth socket so that when we reconnect we can point to the newer
   # socket by just updating the symlink. Saves us from having to manually reset
