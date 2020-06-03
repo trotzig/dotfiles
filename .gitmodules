@@ -25,3 +25,9 @@
 [submodule ".vim/bundle/ultisnips"]
 	path = .vim/bundle/ultisnips
 	url = git@github.com:SirVer/ultisnips.git
+[submodule ".vim/bundle/vim-javascript"]
+	path = .vim/bundle/vim-javascript
+	url = git@github.com:pangloss/vim-javascript.git
+[submodule ".vim/bundle/vim-jsx-pretty"]
+	path = .vim/bundle/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
