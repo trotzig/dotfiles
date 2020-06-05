@@ -31,3 +31,9 @@
 [submodule ".vim/bundle/vim-jsx-pretty"]
 	path = .vim/bundle/vim-jsx-pretty
 	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
+[submodule ".vim/bundle/eslint"]
+	path = .vim/bundle/eslint
+	url = https://github.com/eslint/eslint
+[submodule ".vim/bundle/ale"]
+	path = .vim/bundle/ale
+	url = git@github.com:dense-analysis/ale.git
