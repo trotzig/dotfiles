@@ -39,4 +39,7 @@ tmux () {
 
 alias t='tmux'
 
+# Clipper
+alias clip="nc localhost 8377"
+
 source ~/dotfiles/prompt.sh
