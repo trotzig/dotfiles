@@ -42,4 +42,7 @@ alias t='tmux'
 # Clipper
 alias clip="nc localhost 8377"
 
+# rbenv
+eval "$(rbenv init -)"
+
 source ~/dotfiles/prompt.sh
