@@ -46,3 +46,4 @@ alias clip="nc localhost 8377"
 eval "$(rbenv init -)"
 
 source ~/dotfiles/prompt.sh
+source ~/dotfiles/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
