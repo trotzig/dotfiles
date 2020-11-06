@@ -4,6 +4,8 @@ alias g='git'
 
 alias k='kubectl'
 
+setopt share_history
+
 eval "$(nodenv init -)"
 
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
