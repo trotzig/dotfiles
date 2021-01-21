@@ -1,10 +1,17 @@
 export TERM="screen-256color"
+export EDITOR="vim"
+export VISUAL="vim"
 
 alias g='git'
 
 alias k='kubectl'
 
+alias vi='vim'
+
 setopt share_history
+
+# Use emacs-style bindings in shells (ctrl-r etc)
+bindkey -e
 
 eval "$(nodenv init -)"
 
