@@ -31,10 +31,10 @@ let g:ale_fixers = { 'javascript': ['eslint'] }
 " Keep old leader key for pairing
 map \ ,
 
-set pythondll=/usr/local/Frameworks/Python.framework/Versions/3.7/Python
-set pythonhome=/usr/local/Frameworks/Python.framework/Versions/3.7
-set pythonthreedll=/usr/local/Frameworks/Python.framework/Versions/3.7/Python
-set pythonthreehome=/usr/local/Frameworks/Python.framework/Versions/3.7
+set pythondll=/usr/local/Frameworks/Python.framework/Versions/3.9/Python
+set pythonhome=/usr/local/Frameworks/Python.framework/Versions/3.9
+set pythonthreedll=/usr/local/Frameworks/Python.framework/Versions/3.9/Python
+set pythonthreehome=/usr/local/Frameworks/Python.framework/Versions/3.9
 
 " UltiSnips
 let g:UltiSnipsExpandTrigger="<tab>"
