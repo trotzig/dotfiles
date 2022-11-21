@@ -125,6 +125,9 @@ set nobackup    " Don't create backup files
 set writebackup " Only backup file while editing
 set noswapfile  " No swap files
 
+" Load local .vimrc file if it exists
+set exrc
+
 " Edit file in-place rather than duplicate + copy when saving.
 " Potentially problematic if mulitiple actors editing file, but this allows us
 " to edit a file mounted in a Docker container without changing the inode (and
