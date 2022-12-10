@@ -10,4 +10,4 @@
 	email = henric.trotzig@gmail.com
 	name = Henric Trotzig
 [core]
-	editor = /usr/local/bin/vim
+	editor = nvim

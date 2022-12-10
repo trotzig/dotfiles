@@ -6,22 +6,16 @@ alias g='git'
 
 alias k='kubectl'
 
-alias vi='vim'
+alias vim='nvim'
+alias vi='nvim'
 
 setopt share_history
 
 # Use emacs-style bindings in shells (ctrl-r etc)
 bindkey -e
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-
-eval "$(pyenv init --path)"
-
 eval "$(nodenv init -)"
-eval "$(pyenv init -)"
 
-export PATH="/usr/local/opt/curl/bin:$PATH"
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
@@ -57,9 +51,6 @@ alias t='tmux'
 
 # Clipper
 alias clip="nc localhost 8377"
-
-# rbenv
-eval "$(rbenv init -)"
 
 source ~/dotfiles/prompt.sh
 source ~/dotfiles/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
