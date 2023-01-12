@@ -9,6 +9,8 @@ alias k='kubectl'
 alias vim='nvim'
 alias vi='nvim'
 
+export NODE_OPTIONS=--openssl-legacy-provider
+
 setopt share_history
 
 # Use emacs-style bindings in shells (ctrl-r etc)

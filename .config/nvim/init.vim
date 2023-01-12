@@ -1,4 +1,5 @@
 execute pathogen#infect()
+let g:CommandTPreferredImplementation='lua'
 
 " Use comma for leader key
 let mapleader=','

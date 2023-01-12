@@ -3,7 +3,7 @@
 	url = https://github.com/scrooloose/syntastic
 [submodule ".config/nvim/bundle/vim-colors-solarized"]
 	path = .config/nvim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = git@github.com:altercation/vim-colors-solarized.git
 [submodule ".config/nvim/bundle/vim-fugitive"]
 	path = .config/nvim/bundle/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git
