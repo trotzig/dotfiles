@@ -9,7 +9,6 @@ filetype plugin indent on
 
 silent! nnoremap <Leader>j :ImportJSWord<CR>
 silent! nnoremap <Space> :CommandT<CR>
-silent! nnoremap <Leader><Space> :CommandTFlush<CR>:CommandT<CR>
 silent! nnoremap gp :Prettier<CR>
 silent! nnoremap <leader>y :call system('nc localhost 8377', @0)<CR>
 let g:CommandTCancelMap = ['<ESC>', '<C-c>']
