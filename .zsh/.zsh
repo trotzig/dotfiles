@@ -1,0 +1,1 @@
+/Users/henric/dotfiles/.zsh

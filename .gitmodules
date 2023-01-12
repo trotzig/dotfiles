@@ -1,42 +1,42 @@
-[submodule ".vim/bundle/command-t"]
-	path = .vim/bundle/command-t
-	url = https://github.com/wincent/command-t.git
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
+[submodule ".config/nvim/bundle/syntastic"]
+	path = .config/nvim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
+[submodule ".config/nvim/bundle/vim-colors-solarized"]
+	path = .config/nvim/bundle/vim-colors-solarized
 	url = git@github.com:altercation/vim-colors-solarized.git
-[submodule ".vim/bundle/vim-fugitive"]
-	path = .vim/bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
-[submodule ".vim/bundle/vim-surround"]
-	path = .vim/bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
-[submodule ".vim/bundle/vim-import-js"]
-	path = .vim/bundle/vim-import-js
+[submodule ".config/nvim/bundle/vim-fugitive"]
+	path = .config/nvim/bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule ".config/nvim/bundle/vim-surround"]
+	path = .config/nvim/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule ".config/nvim/bundle/vim-import-js"]
+	path = .config/nvim/bundle/vim-import-js
 	url = git@github.com:Galooshi/vim-import-js.git
-[submodule ".vim/bundle/vim-prettier"]
-	path = .vim/bundle/vim-prettier
+[submodule ".config/nvim/bundle/vim-prettier"]
+	path = .config/nvim/bundle/vim-prettier
 	url = git@github.com:prettier/vim-prettier.git
-[submodule ".vim/bundle/supertab"]
-	path = .vim/bundle/supertab
+[submodule ".config/nvim/bundle/supertab"]
+	path = .config/nvim/bundle/supertab
 	url = git@github.com:ervandew/supertab.git
-[submodule ".vim/bundle/ultisnips"]
-	path = .vim/bundle/ultisnips
+[submodule ".config/nvim/bundle/ultisnips"]
+	path = .config/nvim/bundle/ultisnips
 	url = git@github.com:SirVer/ultisnips.git
-[submodule ".vim/bundle/vim-javascript"]
-	path = .vim/bundle/vim-javascript
+[submodule ".config/nvim/bundle/vim-javascript"]
+	path = .config/nvim/bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
-[submodule ".vim/bundle/vim-jsx-pretty"]
-	path = .vim/bundle/vim-jsx-pretty
+[submodule ".config/nvim/bundle/vim-jsx-pretty"]
+	path = .config/nvim/bundle/vim-jsx-pretty
 	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
-[submodule ".vim/bundle/eslint"]
-	path = .vim/bundle/eslint
+[submodule ".config/nvim/bundle/eslint"]
+	path = .config/nvim/bundle/eslint
 	url = https://github.com/eslint/eslint
-[submodule ".vim/bundle/ale"]
-	path = .vim/bundle/ale
+[submodule ".config/nvim/bundle/ale"]
+	path = .config/nvim/bundle/ale
 	url = git@github.com:dense-analysis/ale.git
 [submodule ".zsh/zsh-autosuggestions"]
 	path = .zsh/zsh-autosuggestions
 	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule ".config/nvim/packer.nvim"]
+	path = .config/nvim/packer.nvim
+	url = https://github.com/wbthomason/packer.nvim
