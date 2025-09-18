@@ -6,8 +6,22 @@
   st       = status -sb
   staged   = diff --cached
   wip      = commit -m WIP --no-verify --no-gpg-sign
+  rbi      = rebase --interactive
+  rbc      = rebase --continue
+  up = "!f() { \
+      branch=$(git rev-parse --abbrev-ref HEAD); \
+      git checkout main && \
+      git pull && \
+      git branch -D $branch; \
+  }; f"
+	pushf = !branch=$(git symbolic-ref --short HEAD) && git push --force-with-lease=refs/heads/$branch:$(git rev-parse origin/$branch)
 [user]
 	email = henric.trotzig@gmail.com
 	name = Henric Trotzig
 [core]
 	editor = nvim
+[push]
+	autoSetupRemote = true
+
+[init]
+	defaultBranch = main

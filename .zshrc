@@ -17,6 +17,7 @@ setopt share_history
 bindkey -e
 
 eval "$(nodenv init -)"
+eval "$(mise activate zsh)"
 
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
@@ -56,3 +57,11 @@ alias clip="nc localhost 8377"
 
 source ~/dotfiles/prompt.sh
 source ~/dotfiles/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/henric/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/henric/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/henric/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/henric/google-cloud-sdk/completion.zsh.inc'; fi
+export JAVA_17_HOME=$(/usr/libexec/java_home -v 17)
+export JAVA_HOME=$JAVA_17_HOME

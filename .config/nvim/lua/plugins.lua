@@ -6,6 +6,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+  use 'leafgarland/typescript-vim'
   use {
     'wincent/command-t',
     run = 'cd lua/wincent/commandt/lib && make',

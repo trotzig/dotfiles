@@ -85,6 +85,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/henric/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["typescript-vim"] = {
+    loaded = true,
+    path = "/Users/henric/.local/share/nvim/site/pack/packer/start/typescript-vim",
+    url = "https://github.com/leafgarland/typescript-vim"
   }
 }
 

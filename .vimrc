@@ -7,17 +7,10 @@ let mapleader=','
 filetype plugin indent on
 
 silent! nnoremap <Leader>j :ImportJSWord<CR>
-silent! nnoremap <Space> :CommandT<CR>
-silent! nnoremap <Leader><Space> :CommandTFlush<CR>:CommandT<CR>
+silent! nnoremap <Space> :CommandTGit<CR>
 silent! nnoremap gp :Prettier<CR>
 silent! nnoremap <leader>y :call system('nc localhost 8377', @0)<CR>
 let g:CommandTCancelMap = ['<ESC>', '<C-c>']
-let g:CommandTFileScanner = 'watchman'
-
-if &term =~# 'screen' || &term =~# 'tmux' || &term =~# 'xterm'
-  let g:CommandTSelectNextMap = ['<C-n>', '<C-j>', '<Down>', '<ESC>OB']
-  let g:CommandTSelectPrevMap = ['<C-p>', '<C-k>', '<Up>', '<ESC>OA']
-endif
 
 set wildignore+=*.o,*.pyc,*/tmp/*,*.swp,*.zip,.git,*/node_modules/*,*/build/*,*/dist/*,*/.next/*
 
